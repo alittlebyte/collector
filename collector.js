@@ -170,7 +170,6 @@ class CollectorView extends Collector{
 	}
 
 	renderPhotoDetails(viewModel){
-		console.log(viewModel)
 		let container3 = document.createElement("div")
 		this.renderGeneral(true,this.element3,container3,true,"#collections__photos",true)
 
